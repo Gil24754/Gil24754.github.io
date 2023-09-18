@@ -1,12 +1,3 @@
-/*    _           _    _                     _ 
-     | |         | |  | |                   | |
-  ___| | ___  ___| | _| |     ___   __ _  __| |
- / __| |/ _ \/ _ \ |/ / |    / _ \ / _` |/ _` |
- \__ \ |  __/  __/   <| |___| (_) | (_| | (_| |
- |___/_|\___|\___|_|\_\______\___/ \__,_|\__,_|
-    version 2.05
-*/
-
 /*URL for the server logo
 Leave it blank to use text instead*/
 var l_serverImage = "images/logo.png";
@@ -53,8 +44,10 @@ var l_bgImages = [
 	"backgrounds/images/fond1.jpg",
 	"backgrounds/images/fond2.jpg",
 	"backgrounds/images/fond3.jpg",
-	"backgrounds/images/fond4.jpg"
-];
+	"backgrounds/images/fond4.jpg",
+	"backgrounds/images/fond5.jpg",
+	"backgrounds/images/fond6.jpg"
+]
 
 /*Random background images order?*/
 var l_bgImagesRandom = true;
@@ -86,24 +79,24 @@ var l_musicDisplay = false;
 /*Music playlist
 Place how much Youtube IDs/.ogg you want*/
 var l_musicPlaylist = [
-	{ogg: "songs/123.ogg", name: "123"},
-	{ogg: "songs/1234.ogg", name: "1234"}
-]
+"songs/song.ogg",
+];
 
 /*Random music order?*/
 var l_musicRandom = true;
 
 /*Music volume
 Choose a value between 0 and 100*/
-var l_musicVolume = 2;
+var l_musicVolume = 25;
 
 /*Enable custom messages?*/
 var l_messagesEnabled = true;
 
 /*Enter your custom messages below*/
 var l_messages = [
-	"Наслаждайтесь сервером",
-	"Спасибо, что присоединились к нам!"
+"Наслаждайтесь сервером",
+"Спасибо, что присоединились к нам!"
+"Mesha Role Play"
 ];
 
 /*Random message order?*/
